@@ -6,19 +6,36 @@ class DailyCleansing extends React.Component{
         return(
            <div>
                <div>
-                   <h3>An odyssey of gifts, for generous and inpired giving</h3>
-                   <ul>
-                       <li>Seasonal Gift Kits</li>
-                       <li>Aesop favourites</li>
-                       <li>Small gestures</li>
-                       <li>Generous offerings</li>
-                       <li>Fragrant formulations</li>
-                       <li>Treats for self</li>
-                       <li>All gifts</li>
-                   </ul>
+                  <p>For hands and body</p>
+                <h3> Daily cleansing</h3>
+                <p>Ensure impeccable hygiene with our range of mild yet efficacious formulations</p>
+                <p>See all Body</p>
+                <img src={require("../assets/images/arrow.png")} alt="arrow" />
                </div>
                <div>
-                   <img src={require("../assets/images/daily.png")} alt="abstract" />
+                   <img src={require("../assets/images/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png")} alt="hand wash" />
+                   <h4>Reverence Aromatique Hand Wash</h4>
+                   <p>Woody, earthy, smoky aroma</p>
+               </div>
+               <div>
+                   <img src={require("../assets/images/daily_products/Aesop-Body-Redemption-Body-Scrub-180mL-large.png")} alt="Scrub"/>
+                   <h4>Redemption Body Scrub</h4>
+                   <p>Bamboo Steam and Pumice to polish skin</p>
+               </div>
+               <div>
+                   <img src={require("../assets/images/daily_products/ody-Body-Cleansing-Slab-310g-Carton-Large-1584x962px.png")} alt="Cleansing"/>
+                   <h4>Body Cleansing Slab</h4>
+                   <p>Enriched with Bergamont Rind, Tahitian</p>
+               </div>
+               <div>
+                   <img src={require("../assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Scrub-180mL-large.png")} alt="Scrub"/>
+                   <h4>Geranium Leaf Body Scrub</h4>
+                   <p>Pumice, Bamboo Steam, and purifying botanical oils</p>
+               </div>
+               <div>
+                   <img src={require("../assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png")} alt="cleanser"/>
+                   <h4>Geranium Leaf Body Cleanser</h4>
+                   <p>Mandarin and Bergamont Rind oils</p>
                </div>
            </div> 
         )
