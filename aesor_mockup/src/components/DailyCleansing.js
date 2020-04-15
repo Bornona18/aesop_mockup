@@ -9,8 +9,7 @@ class DailyCleansing extends React.Component{
                   <p>For hands and body</p>
                 <h3> Daily cleansing</h3>
                 <p>Ensure impeccable hygiene with our range of mild yet efficacious formulations</p>
-                <p>See all Body</p>
-                <img src={require("../assets/images/arrow.png")} alt="arrow" />
+                <p>See all Body <img src={require("../assets/images/arrow.png")} alt="arrow" /></p>
                </div>
                <div>
                    <img src={require("../assets/images/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png")} alt="hand wash" />
@@ -23,7 +22,7 @@ class DailyCleansing extends React.Component{
                    <p>Bamboo Steam and Pumice to polish skin</p>
                </div>
                <div>
-                   <img src={require("../assets/images/daily_products/ody-Body-Cleansing-Slab-310g-Carton-Large-1584x962px.png")} alt="Cleansing"/>
+                   <img src={require("../assets/images/daily_products/")} alt="Cleansing"/>
                    <h4>Body Cleansing Slab</h4>
                    <p>Enriched with Bergamont Rind, Tahitian</p>
                </div>
