@@ -1,0 +1,223 @@
+
+.topBar{
+  background-color: black;
+  font-size: 11px ;
+  color:white;
+  height: 35px;
+  text-align: center;
+  padding: 1px 0; 
+}
+.topBar:hover {
+  text-decoration: underline;
+}
+.headerBackground{
+  display: flex;
+  /* border:solid black; */
+  height: 500px;
+  flex-direction:column;
+  background-image: url('./assets/images/Aesop-Homepage-Banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.navContainer{
+  display: flex;
+  /* border: solid black; */
+ }
+
+li{
+  list-style: none;
+}
+
+.navBttnContainer{
+  /* border: solid black; */
+  display: flex;
+  width: 100%;
+  margin-top: 0em;
+  height: 50px;
+  flex-direction: row;
+  align-content: left;
+
+}
+.navBttns{
+  padding: 10px;
+  font-size: 11px;
+  padding-left: 0em;
+}
+.navBttns:hover {
+  text-decoration: underline;
+}
+.logIn{
+  padding: 10px;
+  margin-left: 75%;
+  font-size: 11px;
+  
+}
+.logIn:hover {
+  text-decoration: underline;
+}
+.LogIndot{
+  font-size: 25px;
+  padding-left:5px ;
+}
+.LogIndot:hover {
+  /* text-decoration: underline; */
+  font-size: 30px;
+  /* padding: 5px; */
+}
+
+
+.brandMotto{
+  display: flex;
+}
+.brandName{
+  margin-top: 50px;
+  font-size: 25px;
+  padding: 25px;
+  margin-right: 200px;
+  margin-left: 20px;
+
+}
+.brandMottoText{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-left:25px ;
+}
+.motto1{
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 25px;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+.motto2{
+  font-size: 15px;
+  padding: 0em;
+  margin-top: 0em;
+  padding-left:25px;
+}
+ 
+
+/* ////////Footer */
+
+
+.Footer{
+  display: flex;
+  /* border:solid black; */
+  flex-direction: row;
+  height: 250px;
+}
+.fotterSubs{
+  width: 500px;
+  font-size: 11px;
+  padding-right: 50px;
+  margin-left:25px ;
+  width: 400px;
+}
+.footerLinkContainer{
+  display: flex;
+  /* border: blanchedalmond solid; */
+  padding: 9px 40px;
+  width: 500px;
+}
+.FooterLinkBorder {
+  margin: 0 25px;
+  padding: 0;
+}
+
+.FooterLinklListTitle{
+  margin-top: 0em;
+  font-size: 11px;
+  color: grey;
+  padding-bottom: 10px;
+
+}
+.FooterLinklList{
+  font-size: 11px;
+  color:black;
+
+}
+.bottomLogo{
+  background-color: black;
+  color:white;
+}
+
+.email{
+  padding: 5px 10px 5px 0;
+   width: 300px;
+   font-size: 16px;
+   border: none;   
+   border-bottom: 1px solid;
+  
+  
+}
+
+/* //////////////////Slider */
+
+.shippingCont{
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  border: solid black;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #e8ddd1;
+}
+
+
+.exit{
+  text-align: right;
+  float: right;
+  margin-left: 96%;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 130px;
+  background-color: #e8ddd1;
+
+}
+.SlideTop{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  text-align: left;
+  color: black;
+  font-size: 15px;
+
+}
+.slideBottom{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  font-size: 11px;
+  text-align: left;
+  color:grey;
+ 
+
+}
+
+.sliderInner1{
+  display: flex;
+}
+
+.sliderInner2{
+  display: flex;
+
+}
+
+.sliderL{
+  display: flex;
+  flex-direction: column;
+
+}
+.sliderR{
+  float:right;
+  height: 20px;
+  margin-right: 45px;
+  display: flex;
+  margin-left: 120px;
+
+}
