@@ -12,11 +12,11 @@ class ForAllAges extends React.Component{
                <p>Healthy skin is the product of careful cleansing, nourishing hydration and protection against environmental factors.</p>
                <p>See all Body <img src={require("../assets/images/arrow.png")} alt="arrow" /></p>
                </div>
-               <div>
+               {/* <div>
                    <img src={require("../assets/images/for_all_products/Aesop-Skin-Parsley-Seed-Anti-Oxidant-Serum-100mL-medium.png")} alt="Serum" />
                    <h3>Parsley Seed Anti-Oxidant Serum</h3>
                    <p>Perfect for use in humid climates</p>
-               </div>
+               </div> */}
                <div>
                    <img src={require("../assets/images/for_all_products/Aesop-Skin-Mandarin-Facial-Hydrating-Cream-60mL-large.png")} alt="Cream" />
                    <h3>Mandarin Facial Hydrating Cream</h3>

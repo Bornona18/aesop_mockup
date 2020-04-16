@@ -23,7 +23,7 @@ class DailyCleansing extends React.Component{
                    <p>Bamboo Steam and Pumice to polish skin</p>
                </div>
                <div>
-                   <img src={require("../assets/images/daily_products/")} alt="Cleansing"/>
+                   <img src={require("../assets/images/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png")} alt="Cleansing"/>
                    <h4>Body Cleansing Slab</h4>
                    <p>Enriched with Bergamont Rind, Tahitian</p>
                </div>
