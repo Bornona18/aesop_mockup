@@ -14,7 +14,7 @@ class StaplesSlider extends Component {
           '../assets/images/staple_products/Aesop-Skin-Purifying-Facial-Exfoliant-Paste-75mL-large.png',
           '../assets/images/staple_products/Aesop-Skin-Camellia-Nut-Facial-Hydrating-Cream-60mL-large.png'
         ],
-        names: [
+        titles: [
           'Resurrection Aromatique Hand Wash',
           'Resurrection Aromatique Hand Balm',
           'Deodorant',
@@ -22,7 +22,11 @@ class StaplesSlider extends Component {
           'Camellia Nut Facial Hydrating Cream'
         ],
         descriptions: [
-
+          'Gentle cleansing for hard-working hands',
+          'Richly hydrating, greaseless finish',
+          'Woody, herbaceous, earthy aromatics',
+          'Enhanced with fine Quartz and Lactic Acid',
+          'A nourishing blend of nut a plant extracts'
         ]
       }
     }
@@ -31,12 +35,11 @@ class StaplesSlider extends Component {
       return (
         <div className="wrapper">
           
-          <ProductTile name="" description=""/>
-          <ProductTile name="" description=""/>
-          <ProductTile name="" description=""/>
-          <ProductTile name="" description=""/>
-          <ProductTile name="" description=""/>
-          <ProductTile name="" description=""/>
+          <ProductTile title={this.state.titles[0]} description={this.state.descriptions[0]} image={this.state.images[0]}/>
+          <ProductTile title={this.state.titles[1]} description={this.state.descriptions[1]} image={this.state.images[1]}/>
+          <ProductTile title={this.state.titles[2]} description={this.state.descriptions[2]} image={this.state.images[2]}/>
+          <ProductTile title={this.state.titles[3]} description={this.state.descriptions[3]} image={this.state.images[3]}/>
+          <ProductTile title={this.state.titles[4]} description={this.state.descriptions[4]} image={this.state.images[4]}/>
 
         </div>
       );
