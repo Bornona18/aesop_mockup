@@ -1,0 +1,19 @@
+
+#odysseyMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#odysseyImg{
+    width: 845px;
+    height:575px;
+}
+
+.dailyImg, .allAgesImg{
+    width: 253px; 
+    height: 314px;
+}
+#forAllMain, #dailyMain{
+display: flex;
+flex-direction: row;
+}

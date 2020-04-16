@@ -5,7 +5,7 @@ class OdysseyOfGifts extends React.Component{
 
     render(){
         return(
-           <div>
+           <div id="odysseyMain">
                <div>
                    <h3>An odyssey of gifts, for generous and inpired giving</h3>
                    <ul>
@@ -19,7 +19,7 @@ class OdysseyOfGifts extends React.Component{
                    </ul>
                </div>
                <div>
-                   <img src={require("../assets/images/daily.png")} alt="abstract" />
+                   <img id ="odysseyImg" src={require("../assets/images/daily.png")} alt="abstract" />
                </div>
            </div> 
         )
