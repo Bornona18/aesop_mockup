@@ -1,20 +1,35 @@
 import React, { Component } from 'react'
+import ProductTile from 'ProductTile.js'
 
-class App extends Component {
+class StaplesSlider extends Component {
   
     constructor(props) {
       super(props);
   
       this.state = {
-        firstTile: this.tiles[0],
-        tiles: []
+        images: [
+          
+        ],
+        names: [
+
+        ],
+        descriptions: [
+
+        ]
       }
     }
     
     render(){
       return (
-        <div className="App">
+        <div className="wrapper">
           
+          <ProductTile name="" description=""/>
+          <ProductTile name="" description=""/>
+          <ProductTile name="" description=""/>
+          <ProductTile name="" description=""/>
+          <ProductTile name="" description=""/>
+          <ProductTile name="" description=""/>
+
         </div>
       );
     }
