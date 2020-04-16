@@ -1,4 +1,5 @@
 import React from "react";
+import "./components.css";
 
 class SpacesOfDistinction extends React.Component{
 
@@ -17,8 +18,7 @@ class SpacesOfDistinction extends React.Component{
                 </div>
                <div>
                    <img src={require("../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg")} alt="picture"/>
-               </div>
-               <div>
+                   <img src={require("../assets/images/line.png")} alt="line" />
                    <p>1 of 5</p>
                    <div>
                        <p>Aesop Bleecker Street</p>
