@@ -10,10 +10,46 @@
 }
 
 .dailyImg, .allAgesImg{
-    width: 253px; 
-    height: 314px;
+    width: 391px; 
+    height: 398px;
 }
 #forAllMain, #dailyMain{
 display: flex;
 flex-direction: row;
 }
+#spaceMainImg{
+  width: 1425px;
+  height: auto;
+}
+.line{
+    width: 253px;
+    height: 10px;
+    
+}
+
+ h5{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #212121;
+ }
+
+ .productsDesc{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #666666;
+
+ }
+
+ #dailyHeader{
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: #333333;
+ }
+ .dailyParagraph{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color:#333333;
+ }
+ #leftSideDiv{
+
+ }

@@ -14,30 +14,30 @@ class ForAllAges extends React.Component{
                </div>
                <div>
                    <img className="allAgesImg" src={require("../assets/images/for_all_products/Aesop-Skin-Parsley-Seed-Anti-Oxidant-Serum-100mL-medium.png")} alt="Serum" />
-                   <h3>Parsley Seed Anti-Oxidant Serum</h3>
-                   <p>Perfect for use in humid climates</p>
+                   <h5>Parsley Seed Anti-Oxidant Serum</h5>
+                   <p className="productsDesc">Perfect for use in humid climates</p>
                </div>
                <div>
                    <img className="allAgesImg" src={require("../assets/images/for_all_products/Aesop-Skin-Mandarin-Facial-Hydrating-Cream-60mL-large.png")} alt="Cream" />
-                   <h3>Mandarin Facial Hydrating Cream</h3>
-                   <p>Rapidy absorbed, lightly hydrating</p>
+                   <h5>Mandarin Facial Hydrating Cream</h5>
+                   <p className="productsDesc">Rapidy absorbed, lightly hydrating</p>
                </div>
                <div>
                    <img className="allAgesImg" src={require("../assets/images/for_all_products/Aesop-Skin-Fabulous-Face-Oil-25mL-Large-684x668px.png")} alt="Oil" />
-                   <h3>Fabulous Face Oil</h3>
-                   <p>Softens, nourishes and balances skin</p>
+                   <h5>Fabulous Face Oil</h5>
+                   <p className="productsDesc">Softens, nourishes and balances skin</p>
                </div>
                <div>
                    <img className="allAgesImg" src={require("../assets/images/for_all_products/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-large.png")} alt="Cleanser" />
-                   <h3>Parsley Seed Facial Cleanser</h3>
-                   <p>For those in polluted urban environments</p>
+                   <h5>Parsley Seed Facial Cleanser</h5>
+                   <p className="productsDesc">For those in polluted urban environments</p>
                </div>
                <div>
                    <img className="allAgesImg" src={require("../assets/images/for_all_products/AesopSkin-B-Tea-Balancing-Toner-200mL-large.png")} alt="Cleanser" />
-                   <h3>B&Tea Balancing Toner</h3>
-                   <p>Particularly suited to sensitive skin</p>
+                   <h5>B&Tea Balancing Toner</h5>
+                   <p className="productsDesc">Particularly suited to sensitive skin</p>
                </div>
-           </div> 
+           </div>
         )
     }
 }

@@ -17,8 +17,7 @@ class SpacesOfDistinction extends React.Component{
                 </div>
                 </div>
                <div>
-                   <img src={require("../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg")} alt="picture"/>
-                   <img src={require("../assets/images/line.png")} alt="line" />
+                   <img id="spaceMainImg" src={require("../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg")} alt="picture"/>
                    <p>1 of 5</p>
                    <div>
                        <p>Aesop Bleecker Street</p>
