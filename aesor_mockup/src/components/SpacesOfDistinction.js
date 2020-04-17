@@ -20,9 +20,9 @@ class SpacesOfDistinction extends React.Component{
                    <img id="spaceMainImg" src={require("../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg")} alt="picture"/>
                    <div id="bottomSpacesDiv">
                    <p>1 of 5</p>
-                   <div>
-                       <p>Aesop Bleecker Street</p>
-                       <p>341 Bleecker St, New York, NY 10014</p>
+                   <div id="addressSpaces">
+                       <p className="address">Aesop Bleecker Street</p>
+                       <p className="address">341 Bleecker St, New York, NY 10014</p>
                    </div>
                    </div>
                </div>

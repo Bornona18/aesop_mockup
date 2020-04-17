@@ -18,7 +18,7 @@ function App() {
       <Header />
       <OdesseyyOfGifts />
       <DailyCleansing />
-      <SpaceOfDistinction />
+      {/* <SpaceOfDistinction /> */}
       <ForAllAges />
       <Footer />
 

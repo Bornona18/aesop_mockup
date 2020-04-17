@@ -117,8 +117,39 @@ color: #333333;
 }
 #bottomSpacesDiv{
     display:flex;
-    flex-dire
+    flex-direction: row;
     font-family: 'Questrial', sans-serif;
     font-size: 14px;
     color: #333333;
+}
+#addressSpaces{
+    margin-bottom: 150px;
+    margin-left: 500px;
+
+ 
+}
+
+#address{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333; 
+}
+#forAllMain{
+    margin-left: 80px;
+}
+#forAllItemsDiv{
+    display: flex;
+    flex-direction: row;
+    margin-left:180px;
+}
+.forAllItems{
+text-align: center;
+}
+.textAllAgesLeft{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333; 
+}
+#forAllLeft{
+    width: 300px
 }
