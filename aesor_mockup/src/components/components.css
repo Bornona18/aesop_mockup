@@ -90,3 +90,35 @@ flex-direction: row;
     margin-top: -300px;
     margin-left:100px;
 }
+#spacesMain{
+    margin-top:150px;
+    margin-left:80px;
+}
+#topspacesDiv{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+#topspacesLeft{
+margin-right: 50px;
+}
+#topspacesRight{
+margin-left: 350px;
+}
+#spacesHeader{
+font-family: 'Questrial', sans-serif;
+font-size: 21px;
+color: #333333;
+}
+#topspacesP{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+#bottomSpacesDiv{
+    display:flex;
+    flex-dire
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
