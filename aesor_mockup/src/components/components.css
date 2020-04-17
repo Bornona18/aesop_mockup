@@ -1,14 +1,3 @@
-
-#odysseyMain{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-#odysseyImg{
-    width: 845px;
-    height:575px;
-}
-
 .dailyImg, .allAgesImg{
     width: 391px; 
     height: 398px;
@@ -50,15 +39,33 @@ flex-direction: row;
     font-size: 14px;
     color:#333333;
  }
- #leftSideDiv{
-
+ #odysseyLeftSide{
+    width:540px;
+    height:659px;
+    margin-left:40px;
+    padding-left: 40px;
+    padding-right: 112px;
  }
  #odysseyHeader{
-    
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color:#333333;
  }
  #odysseyUl{
-
+ margin-left:-41px;
+ font-family: 'Questrial', sans-serif;
+ font-size: 16px;
+ color:#333333;
  }
  .odysseyLi{
-    
+    margin-bottom: 15px;
  }
+ #odysseyMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#odysseyImg{
+    width: 693px;
+    height:400px;
+}
