@@ -1,24 +1,25 @@
 import React from "react";
+import "./components.css";
 
 class OdysseyOfGifts extends React.Component{
 
     render(){
         return(
-           <div>
-               <div>
-                   <h3>An odyssey of gifts, for generous and inpired giving</h3>
-                   <ul>
-                       <li>Seasonal Gift Kits</li>
-                       <li>Aesop favourites</li>
-                       <li>Small gestures</li>
-                       <li>Generous offerings</li>
-                       <li>Fragrant formulations</li>
-                       <li>Treats for self</li>
-                       <li>All gifts</li>
+           <div id="odysseyMain">
+               <div id="odysseyLeftSide">
+                   <h2 id="odysseyHeader">An odyssey of gifts, for generous and inpired giving</h2>
+                   <ul id="odysseyUl">
+                       <li className="odysseyLi">Seasonal Gift Kits</li>
+                       <li className="odysseyLi">Aesop favourites</li>
+                       <li className="odysseyLi">Small gestures</li>
+                       <li className="odysseyLi">Generous offerings</li>
+                       <li className="odysseyLi">Fragrant formulations</li>
+                       <li className="odysseyLi">Treats for self</li>
+                       <li className="odysseyLi">All gifts</li>
                    </ul>
                </div>
                <div>
-                   <img src={require("../assets/images/daily.png")} alt="abstract" />
+                   <img id ="odysseyImg" src={require("../assets/images/daily.png")} alt="abstract" />
                </div>
            </div> 
         )
