@@ -8,11 +8,11 @@ class StaplesSlider extends Component {
   
       this.state = {
         images: [
-          '../assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png',
-          '../assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png',
-          '../assets/images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png',
-          '../assets/images/staple_products/Aesop-Skin-Purifying-Facial-Exfoliant-Paste-75mL-large.png',
-          '../assets/images/staple_products/Aesop-Skin-Camellia-Nut-Facial-Hydrating-Cream-60mL-large.png'
+          require('../assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png'),
+          require('../assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png'),
+          require('../assets/images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png'),
+          require('../assets/images/staple_products/Aesop-Skin-Purifying-Facial-Exfoliant-Paste-75mL-large.png'),
+          require('../assets/images/staple_products/Aesop-Skin-Camellia-Nut-Facial-Hydrating-Cream-60mL-large.png')
         ],
         titles: [
           'Resurrection Aromatique Hand Wash',
@@ -33,8 +33,11 @@ class StaplesSlider extends Component {
     
     render(){
       return (
-        <div className="wrapper">
-          
+        <div className="staplesWrapper">
+          <div className="descWrap">
+            <h3>A selection of staples</h3>
+            <p>From beloved formulations first created decades ago to personal care necessities</p>
+          </div>
           <ProductTile title={this.state.titles[0]} description={this.state.descriptions[0]} image={this.state.images[0]}/>
           <ProductTile title={this.state.titles[1]} description={this.state.descriptions[1]} image={this.state.images[1]}/>
           <ProductTile title={this.state.titles[2]} description={this.state.descriptions[2]} image={this.state.images[2]}/>

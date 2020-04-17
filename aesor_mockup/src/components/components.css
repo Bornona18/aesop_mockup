@@ -28,11 +28,11 @@
     width: 693px;
     height:400px;
 }
-.dailyImg, .allAgesImg{
+.dailyImg, .allAgesImg, .productTileImg {
     width: 391px; 
     height: 398px;
 }
-#forAllMain, #dailyMain{
+#forAllMain, #dailyMain, .staplesWrapper{
 display: flex;
 flex-direction: row;
 }
@@ -89,4 +89,54 @@ flex-direction: row;
 #seeAllArrow{
     margin-top: -300px;
     margin-left:100px;
+}
+
+/* CSS for Sione's components */
+
+.staplesWrapper {
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 100%;
+}
+
+.descWrap {
+   font-family: 'Questrial', sans-serif;
+   font-size: 30px;
+   text-align: left;
+   color: #333333;
+   display: flex;
+   flex-direction: column;
+   height:490px;
+   min-width: 20%;
+   margin-left:80px;
+}
+.descWrap p {
+   font-family: 'Questrial', sans-serif;
+   font-size: 14px;
+   color: #333333;
+}
+
+.outsideDiscoverWrap {
+   display: inline-block;
+   width: 100%;
+   background-color: firebrick;
+}
+
+.discoverMoreWrap {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   width: 30%;
+}
+
+.ulWrap {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#discoverImg {
+   width: auto;
 }
