@@ -8,10 +8,16 @@ function DiscoverMore() {
         <h1 id='discoverMoreTitle'>Discover more</h1>
         <div className="ulWrap">
             <ul>
-
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Gift Kits</a></li>
+                <li><a href="#">Skin</a></li>
+                <li><a href="#">Hand & Body</a></li>
             </ul>
             <ul>
-                
+                <li><a href="#">Cleanse</a></li>
+                <li><a href="#">Condition</a></li>
+                <li><a href="#">Treat</a></li>
+                <li><a href="#">Groom</a></li>
             </ul>
         </div>
         </div>        
