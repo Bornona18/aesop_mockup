@@ -118,9 +118,12 @@ flex-direction: row;
 }
 
 .outsideDiscoverWrap {
-   display: inline-block;
-   width: 100%;
-   background-color: firebrick;
+   width: vw;
+   /* background-color: fuchsia; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 50px;
 }
 
 .discoverMoreWrap {
@@ -128,7 +131,10 @@ flex-direction: row;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
-   width: 30%;
+   /* background-color: forestgreen; */
+   max-width: 50%;
+   min-width: 30%;
+   padding-left: 80px;
 }
 
 .ulWrap {
@@ -137,6 +143,19 @@ flex-direction: row;
    justify-content: space-between;
 }
 
+.ulWrap ul {
+   padding-left: 0%;
+   padding-right: 50px;
+   color: black;
+}
+
+.ulWrap ul li a{
+   color: black;
+   text-decoration: inherit;
+}
+
 #discoverImg {
+   height: 200px;
    width: auto;
+   position: relative;
 }

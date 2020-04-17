@@ -36,7 +36,7 @@ class StaplesSlider extends Component {
         <div className="staplesWrapper">
           <div className="descWrap">
             <h3>A selection of staples</h3>
-            <p>From beloved formulations first created decades ago to personal care necessities</p>
+            <p>From beloved formulations first created decades ago to personal care</p>
           </div>
           <ProductTile title={this.state.titles[0]} description={this.state.descriptions[0]} image={this.state.images[0]}/>
           <ProductTile title={this.state.titles[1]} description={this.state.descriptions[1]} image={this.state.images[1]}/>
