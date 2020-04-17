@@ -159,3 +159,68 @@ flex-direction: row;
    width: auto;
    position: relative;
 }
+
+#spacesMain {
+    margin-top:150px;
+    margin-left:80px;
+}
+
+#topspacesDiv{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+#topspacesLeft{
+margin-right: 50px;
+}
+#topspacesRight{
+margin-left: 350px;
+}
+#spacesHeader{
+font-family: 'Questrial', sans-serif;
+font-size: 21px;
+color: #333333;
+}
+#topspacesP{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+#bottomSpacesDiv{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+#addressSpaces{
+    margin-bottom: 150px;
+    margin-left: 500px;
+
+ 
+}
+
+#address{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333; 
+}
+#forAllMain{
+    margin-left: 80px;
+}
+#forAllItemsDiv{
+    display: flex;
+    flex-direction: row;
+    margin-left:180px;
+}
+.forAllItems{
+text-align: center;
+}
+.textAllAgesLeft{
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    color: #333333; 
+}
+#forAllLeft{
+    width: 300px
+}
