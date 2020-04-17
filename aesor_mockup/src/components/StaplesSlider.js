@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProductTile from 'ProductTile.js'
+import ProductTile from './ProductTile'
 
 class StaplesSlider extends Component {
   
@@ -46,4 +46,4 @@ class StaplesSlider extends Component {
     }
   }
   
-  export default App;
+  export default StaplesSlider;
